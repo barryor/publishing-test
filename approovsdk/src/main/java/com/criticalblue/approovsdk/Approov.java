@@ -10,11 +10,11 @@ import java.net.MalformedURLException;
  */
 
 public class Approov {
-    static ApproovAttestation shared() {
+    public static ApproovAttestation shared() {
         return ApproovAttestation.shared();
     }
 
-    static void initialize(ApproovConfig pConfig) throws IllegalArgumentException, MalformedURLException {
+    public static void initialize(ApproovConfig pConfig) throws IllegalArgumentException, MalformedURLException {
         ApproovAttestation.initialize(pConfig);
     }
 
